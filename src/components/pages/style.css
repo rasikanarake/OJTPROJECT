@@ -4,14 +4,13 @@ div{
 
 
 .page-container{
-    background-color: #fff;
      overflow-y: auto;
     max-width: 1000px;
      max-height: 80vh;
      width: 90%;
     margin: 20px auto;
     padding: 30px;
-    background-color: #ccc8c8;
+    background-color:rgb(51, 49, 49);
     border-radius: 12px;
     box-shadow: 0 4px 12px #0000000d;
 }
