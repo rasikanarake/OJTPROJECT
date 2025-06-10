@@ -4,7 +4,7 @@ import './style.css'
 const About=() =>{
     return ( 
         <div>
-               <Headerder/>
+               <Header/>
 
           <div className="content">
             <div className="page-container">
