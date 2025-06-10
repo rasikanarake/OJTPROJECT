@@ -1,9 +1,11 @@
+import Header from '../header/Header';
 import './style.css'
 
 const Home = () => {
 	return (
     
 <div>
+   <Header/>
     <div class="content">
         <div class="page-container" >
           <div class="hero-section">
