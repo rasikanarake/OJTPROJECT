@@ -1,5 +1,6 @@
+import Footer from '../footer/Footer';
 import Header from '../header/Header';
-import './style.css'
+import './about.css'
 
 const About=() =>{
     return ( 
@@ -27,7 +28,8 @@ const About=() =>{
                 <h2>Our History</h2>
                  <p>[Briefly describe the college's history - e.g., how it started, key milestones, growth over the years,       famous alumni if any]. Our journey began with a vision to make quality education available to all, and we       continue that legacy today.</p>
              </div>
-         </div>     
+         </div> 
+         <Footer/>    
         </div>
 
     )

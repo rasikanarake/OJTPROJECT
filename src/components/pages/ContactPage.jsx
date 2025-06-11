@@ -1,4 +1,6 @@
+import Footer from "../footer/Footer";
 import Header from "../header/Header"
+import './contact.css'
 
 const ContactPage = () => {
     return(
@@ -28,7 +30,7 @@ const ContactPage = () => {
 </div>
 </div>
 
-
+        <Footer/>
     </div>
     )
 }
