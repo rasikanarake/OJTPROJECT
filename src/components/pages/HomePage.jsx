@@ -5,7 +5,7 @@ import './style.css'
 const Home = () => {
 	return (
     
-<div>
+<div className='main'>
    <Header/>
     <div class="content">
         <div class="page-container" >

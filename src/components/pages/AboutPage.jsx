@@ -1,6 +1,6 @@
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
-import './about.css'
+import './style.css'
 
 const About=() =>{
     return ( 

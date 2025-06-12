@@ -1,6 +1,32 @@
+.main{
+    width: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+html {
+    display: block;
+}
 div{   
      display: block;
     unicode-bidi: isolate;}   
+
+    body {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    view-transition-name: root;
+}
+body {
+    display: block;
+    margin: 8px;
+}
 
 
 .page-container{
@@ -10,7 +36,7 @@ div{
      width: 90%;
     margin: 20px auto;
     padding: 30px;
-    background-color:rgb(51, 49, 49);
+    background-color:rgb(22, 21, 21);
     border-radius: 12px;
     box-shadow: 0 4px 12px #0000000d;
 }
@@ -128,4 +154,24 @@ img {
 div {
     display: block;
     unicode-bidi: isolate;
+} */
+
+
+
+
+/* src/pages/pages.css  */
+
+ element.style {
+    overflow: auto;
 }
+.page-container {
+    max-width: 960px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #181515;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #0000000d;
+}
+
+
