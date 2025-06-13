@@ -2,14 +2,20 @@
     width: 100%;
 }
 
-html, body {
+html, body, #root{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 html {
     display: block;
 }
+
+
 div{   
      display: block;
     unicode-bidi: isolate;}   
@@ -151,10 +157,7 @@ img {
     margin-top: 40px;
 }
 
-div {
-    display: block;
-    unicode-bidi: isolate;
-} */
+
 
 
 
@@ -169,7 +172,7 @@ div {
     height: 500px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #181515;
+    background-color: #181515;  
     border-radius: 8px;
     box-shadow: 0 4px 12px #0000000d;
 }

@@ -9,7 +9,9 @@ import { BrowserRouter,  Routes, Route} from 'react-router-dom'
 const App=() =>{
     return ( 
         <div>
+           <ChatbotComponent/>  
           <BrowserRouter>
+          
           <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/AboutPage' element={<About/>}></Route> 
@@ -17,9 +19,7 @@ const App=() =>{
             <Route path='/ContactPage' element={<ContactPage/>}></Route>
                 <Route path='/CoursesPage' element={<CoursesPage/>}></Route> 
           </Routes>
-          
-                            <ChatbotComponent/>
-
+                         
           </BrowserRouter>
 
 

@@ -1,0 +1,59 @@
+.content {
+    background-color: #52d2d2;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.main-layout {
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1b1b;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.admissions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #2e2f30;
+    box-shadow: 0 2px 8px #7c79790d;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: rgb(212, 207, 207);
+    text-indent: initial;
+    border-spacing: 2px;
+        border-collapse: collapse;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}

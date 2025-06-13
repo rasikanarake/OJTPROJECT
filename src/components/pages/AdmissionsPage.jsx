@@ -8,6 +8,7 @@ const AdmissionsPage = () => {
   return (
 <div>
       <Header/> 
+      <div className="content">
           <div className="page-container">
             <h1>Admissions at Vivekanand College</h1>
       <p>
@@ -85,6 +86,7 @@ const AdmissionsPage = () => {
       
             
           </div> 
+          </div>
       <Footer/>
 </div>
 
