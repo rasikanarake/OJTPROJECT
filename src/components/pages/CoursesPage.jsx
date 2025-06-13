@@ -45,7 +45,7 @@ const CoursesPage = () => {
             </li>
           </ul>
           <h2>Program Details &amp; Fee Structure (Annual)</h2>
-          <table class="admissions-table course-details-table"> 
+          <table class="admissions-table"> 
             <thead>
               <tr>
                 <th>Program Type</th>

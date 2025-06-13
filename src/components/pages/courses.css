@@ -29,27 +29,25 @@ html, body {
     border-collapse: collapse;
     margin-top: 20px;
     margin-bottom: 30px;
-    background-color: #2e2f30;
-    box-shadow: 0 2px 8px #7c79790d;
-}
-
-table {
+    background-color: #252525;
+    box-shadow: 0 2px 8px rgb(100, 98, 98);
     display: table;
     border-collapse: separate;
     box-sizing: border-box;
     text-indent: initial;
     unicode-bidi: isolate;
     border-spacing: 2px;
-    border-color: rgb(212, 207, 207);
+    border-color: white;
     text-indent: initial;
     border-spacing: 2px;
-        border-collapse: collapse;
+    border-collapse: collapse;
 }
 thead {
     display: table-header-group;
     vertical-align: middle;
     unicode-bidi: isolate;
     border-color: inherit;
+    text-align: justify;
 }
 tbody {
     display: table-row-group;
