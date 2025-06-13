@@ -8,7 +8,7 @@ html, body, #root{
     font-family: Arial, sans-serif;
     height: 100%;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 html {
@@ -36,6 +36,7 @@ body {
 
 
 .page-container{
+    
      overflow-y: auto;
     max-width: -webkit-fill-available;
      max-height: -webkit-fill-available;;
@@ -76,11 +77,10 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #fffbfb;
     text-align: center;
     width: 90%;
 }
-
 .page-container h2 {
     color: #bdc9d4;
     margin-top: 30px;
@@ -88,6 +88,13 @@ img {
     font-size: 1.8em;
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
+}
+
+.hero-overlay-text h1 {
+    color: #e9eef5;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.5em;
 }
 
 
