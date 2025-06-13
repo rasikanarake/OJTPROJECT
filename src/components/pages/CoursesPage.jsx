@@ -78,6 +78,11 @@ const CoursesPage = () => {
                   </tr>
               </tbody>
           </table>
+          <h2>Specialized &amp; Vocational Courses</h2>
+          <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
+        <div class="call-to-action">
+          <p>Have questions about a specific course?</p>
+          <a class="btn" href="/ContactPage" data-discover="true">Inquire About Courses</a></div>
   </div>
     
     </div>
