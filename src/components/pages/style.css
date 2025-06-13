@@ -8,7 +8,7 @@ html, body, #root{
     font-family: Arial, sans-serif;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: auto;
     scroll-behavior: smooth;
 }
 html {
@@ -38,7 +38,7 @@ body {
 .page-container{
      overflow-y: auto;
     max-width: 1000px;
-     max-height: 80vh;
+     max-height: -webkit-fill-available;;
      width: 90%;
     margin: 20px auto;
     padding: 30px;

@@ -19,7 +19,7 @@ const CoursesPage = () => {
        <h2>Discover Campus Life</h2>
            <div className="video-container">
         <video width="100%"  height="auto" controls autoPlay muted loop className="course-video">
-          <source src="public/video/clg-video.mp4" type="video/mp4" controls/>
+          <source src="video/clg-video.mp4" type="video/mp4" controls/>
           Your browser does not support the video tag.
         </video>
        </div>
