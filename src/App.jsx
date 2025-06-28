@@ -1,12 +1,14 @@
 import { useState } from "react";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
-import About from "./components/pages/AboutPage";
 import AdmissionsPage from "./components/pages/AdmissionsPage";
 import ContactPage from "./components/pages/ContactPage";
 import CoursesPage from "./components/pages/CoursesPage";
-import Home from "./components/pages/HomePage";
-import { BrowserRouter,  Routes, Route} from 'react-router-dom'
+import { BrowserRouter,  Routes, Route, Router} from 'react-router-dom'
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/header/Header";
+import HomePage from "./components/pages/HomePage";
+import AboutPage from "./components/pages/AboutPage";
 
 
 const App=() =>{
@@ -17,8 +19,10 @@ const App=() =>{
   };
     return ( 
       <>
-      <div>
-        {/* Your main application content */}
+      <BrowserRouter>
+      <div className="main-layout">
+        <Header/>
+        <div className="content">
         <DeveloperInfoPopup
           show={showPopup}
           onClose={handleClosePopup}
@@ -29,21 +33,19 @@ const App=() =>{
       </div>
         <div>
            <ChatbotComponent/>  
-          <BrowserRouter>
           
           <Routes>
-            <Route path='/' element={<Home/>}></Route>
-            <Route path='/AboutPage' element={<About/>}></Route> 
+            <Route path='/' element={<HomePage/>}></Route>
+            <Route path='/AboutPage' element={<AboutPage/>}></Route> 
             <Route path='/AdmissionsPage' element={<AdmissionsPage/>}></Route>
             <Route path='/ContactPage' element={<ContactPage/>}></Route>
-                <Route path='/CoursesPage' element={<CoursesPage/>}></Route> 
-          </Routes>
-                         
-          </BrowserRouter>
-
-
-
-        </div>
+            <Route path='/CoursesPage' element={<CoursesPage/>}></Route> 
+          </Routes>         
+          
+ <Footer/>
+</div>
+ </div>
+ </BrowserRouter>
 </>
     )
  };

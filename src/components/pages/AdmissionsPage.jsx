@@ -1,29 +1,22 @@
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
-import { Link } from 'react-router-dom';
-import './style.css'
-
+// src/pages/AdmissionsPage.jsx
+import { Link } from "react-router-dom";
+import "./pages.css";
 
 const AdmissionsPage = () => {
   return (
-<div>
-      <Header/> 
-      <div className="content">
-          <div className="page-container">
-            <h1>Admissions at Vivekanand College</h1>
+    <div className="page-container" style={{ overflow: "auto" }}>
+      <h1>Admissions at Vivekanand College</h1>
       <p>
         Welcome to the Admissions page of Vivekanand College! We are delighted
         you're considering joining our vibrant academic community. Our admission
         process is designed to be straightforward and accessible.
       </p>
-
       <p>
         Please review the eligibility criteria and key dates below for the
         upcoming academic year. For any queries, feel free to contact our
         admissions office.
       </p>
-
-       <h2>Eligibility Criteria for Undergraduate Programs</h2>
+      <h2>Eligibility Criteria for Undergraduate Programs</h2>
       <table className="admissions-table">
         <thead>
           <tr>
@@ -52,6 +45,7 @@ const AdmissionsPage = () => {
             <td>Any Stream</td>
             <td>40%</td>
           </tr>
+          {/* Add more rows for other programs as needed */}
         </tbody>
       </table>
       <h2>Application Process</h2>
@@ -80,17 +74,22 @@ const AdmissionsPage = () => {
       <p>
         For detailed information on postgraduate program admissions, specific
         program syllabi, and fee structures, please visit our{" "}
-        <Link to="/CoursesPage">Courses page</Link> or{" "}
-        <Link to="/ContactPage">Contact us</Link> directly.
+        <Link to="/courses">Courses page</Link> or{" "}
+        <Link to="/contact">Contact us</Link> directly.
       </p>
-      
-            
-          </div> 
-          </div>
-      <Footer/>
-</div>
-
+      {/* <div className="call-to-action">
+        <p>Ready to apply?</p>
+        <a
+          href="https://yourcollegeadmissionportal.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          Start Your Online Application
+        </a> */}
+      {/* Replace "https://yourcollegeadmissionportal.com" with a real application portal link */}
+      {/* </div> */}
+    </div>
   );
-}
-
+};
 export default AdmissionsPage;

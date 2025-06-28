@@ -1,13 +1,11 @@
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
-import "./style.css"
-import "./courses.css"
+import "./pages.css"
+// import "./courses.css"
+import Footer from "../Footer/Footer";
 
 const CoursesPage = () => {
   return (
     
-      <div >
-      <Header/>
+      <div className="main-layout">
       <div className="content">
     <div className="page-container">
       <h1>Our Academic Programs</h1>
@@ -86,7 +84,6 @@ const CoursesPage = () => {
   </div>
     
     </div>
-      <Footer/>
       </div>
   );
 };

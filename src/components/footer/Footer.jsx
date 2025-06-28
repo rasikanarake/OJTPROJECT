@@ -1,11 +1,10 @@
-import './Footer.css' 
 
-const Footer=() =>{
-    return ( 
-        <div>
-      <footer className="footer"><p>© 2025 Vivekanand College. All rights reserved.</p></footer>
-        </div>
-
-    )
- };
- export default Footer;
+import './Footer.css'; 
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Vivekanand College. All rights reserved.</p>
+    </footer>
+  );
+}
+export default Footer;
