@@ -1,6 +1,6 @@
 import "./pages.css"
 // import "./courses.css"
-import Footer from "../Footer/footer";
+import Footer from "../footer/Footer";
 
 const CoursesPage = () => {
   return (
