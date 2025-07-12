@@ -20,9 +20,9 @@ const App=() =>{
     return ( 
       <>
       <BrowserRouter>
-      <div className="main-layout">
+  <div className="main-layout">
         <Header/>
-        <div className="content">
+        <div>
         <DeveloperInfoPopup
           show={showPopup}
           onClose={handleClosePopup}
@@ -31,9 +31,8 @@ const App=() =>{
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
-        <div>
-           <ChatbotComponent/>  
-          
+        <div className="content">
+
           <Routes>
             <Route path='/' element={<HomePage/>}></Route>
             <Route path='/AboutPage' element={<AboutPage/>}></Route> 
@@ -41,10 +40,11 @@ const App=() =>{
             <Route path='/ContactPage' element={<ContactPage/>}></Route>
             <Route path='/CoursesPage' element={<CoursesPage/>}></Route> 
           </Routes>         
-          
+       </div> 
+     <ChatbotComponent/>  
+     
  <Footer/>
 </div>
- </div>
  </BrowserRouter>
 </>
     )

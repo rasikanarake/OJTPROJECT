@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom"; 
 import './pages.css'
+import Header from "../header/Header";
 const HomePage = () => {
   return (
-    <div className="main-layout">
-      <div className="content">
     <div className="page-container" >
       <div className="hero-section">
         <img
@@ -72,8 +71,6 @@ const HomePage = () => {
           Explore Courses
         </Link>{" "}
       </div>
-    </div>
-    </div>
     </div>
   );
 };
