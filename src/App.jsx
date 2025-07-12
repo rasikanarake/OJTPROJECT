@@ -8,7 +8,7 @@ import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import Header from "./components/header/Header";
 import HomePage from "./components/pages/HomePage";
 import AboutPage from "./components/pages/AboutPage";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/footer";
 
 
 const App=() =>{
