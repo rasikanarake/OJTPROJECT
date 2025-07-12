@@ -5,10 +5,10 @@ import ContactPage from "./components/pages/ContactPage";
 import CoursesPage from "./components/pages/CoursesPage";
 import { BrowserRouter,  Routes, Route, Router} from 'react-router-dom'
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
-import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import HomePage from "./components/pages/HomePage";
 import AboutPage from "./components/pages/AboutPage";
+import Footer from "./components/Footer/Footer";
 
 
 const App=() =>{
